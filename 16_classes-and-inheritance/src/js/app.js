@@ -1,0 +1,1 @@
+import createHero from './createHero';
