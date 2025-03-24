@@ -1,0 +1,8 @@
+Game art: https://www.kenney.nl CC0 1.0 Universal
+Emoji: https://github.com/twitter/twemoji/blob/gh-pages/LICENSE-GRAPHICS
+
+<a target="_blank" href="https://icons8.com/icon/59239/мир">МИР</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",

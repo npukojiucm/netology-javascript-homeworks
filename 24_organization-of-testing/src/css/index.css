@@ -1,0 +1,21 @@
+html {
+    font-size: 14px;
+}
+
+.non-visible {
+    opacity: 0.4;
+}
+
+.btn {
+    height: 33px;
+    background: green;
+    color: white;
+    font-size: 1.3rem;
+}
+
+input {
+    height: 30px;
+    width: 230px;
+
+    font-size: 1.3rem;
+}

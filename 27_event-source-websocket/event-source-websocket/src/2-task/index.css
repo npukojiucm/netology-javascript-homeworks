@@ -1,0 +1,231 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+
+    font-family: "Montserat", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+.page {
+    width: 100%;
+    height: 100vh;
+
+    padding-top: 2.5rem;
+
+    background-image: url('./img/notebook-cell.jpg');
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    width: 700px;
+    min-height: 500px;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3.5rem;
+
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    background-color: white;
+}
+
+/* Instance 
+=============*/
+.instances {
+    width: 300px;
+    max-height: 430px;
+
+    padding: 1rem;
+
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    background-color: white;
+
+    text-align: center;
+    color: rgb(116, 116, 116);
+
+    overflow: auto;
+}
+
+.instances-title {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+
+.list-item {
+    padding: 0.5rem 0.5rem 0;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.list-item:nth-child(n) {
+    margin-bottom: 1.5rem;
+}
+
+.list-item div:nth-child(n) {
+    margin-bottom: 0.4rem;
+}
+
+.item-info,
+.item-server,
+.item-status,
+.item-actions {
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu-name {
+    width: 50px;
+}
+
+.item-btn {
+    margin-left: 0.7rem;
+}
+
+.status-state-ico {
+    width: 17px;
+    height: 17px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.container-btn {
+    position: relative;
+}
+
+.bg-color-yellow {
+    background-color: yellow;
+}
+
+.bg-color-green {
+    background-color: green;
+}
+
+.bg-color-red {
+    background-color: red;
+}
+
+
+.item-actions button {
+    padding: 0;
+    border: none;
+    background-color: white;
+}
+
+.item-actions button:disabled {
+    background: #999;
+    color: #555;
+    cursor: not-allowed;
+}
+
+.btn-actions {
+    width: 20px;
+    height: auto;
+}
+
+.btn {
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.btn-active {
+    position: relative;
+    width: 20px;
+    height: auto;
+    opacity: 1;
+}
+
+
+
+
+
+.btn-new-instance {
+    border: none;
+    background: transparent;
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+
+
+/* WORKLOG */
+.worklog {
+    width: 300px;
+    max-height: 430px;
+
+    /* margin-left: 3rem; */
+    padding: 1rem;
+
+    border: 1px solid black;
+    border-radius: 2.5rem;
+    background-color: white;
+
+    text-align: center;
+    color: rgb(116, 116, 116);
+
+    overflow: auto;
+}
+
+.worklog-title {
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.worklog-item {
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+}
+
+.worklog-item {
+    margin-bottom: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.1rem;
+    text-align: left;
+}
+
+.item-date {
+    margin-bottom: 0.4rem;
+}
+
+.item-server-text,
+.item-info-text {
+    width: 30px;
+}
+
+.item-server-id,
+.item-server-command {
+    margin-left: 0.7rem;
+}

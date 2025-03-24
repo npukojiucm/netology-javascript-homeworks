@@ -1,0 +1,71 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.page {
+    max-width: 500px;
+    height: 250px;
+
+    margin: 20px auto;
+    padding: 5px;
+
+    border: 1px solid black;
+    background-color:#f9f9f9;
+}
+
+.collapse-item {
+    max-height: 55px;
+    padding: 2rem;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 1s linear;
+}
+
+.collapse-btn {
+    width: 90px;
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+
+    border: 0;
+    border-radius: 0.5rem;
+
+    color: white;
+    font-size: 1.5rem;
+    background-color: blue;
+}
+
+.collapse-btn:hover,
+.collapse-btn:active {
+    background-color: #0707c9;
+    cursor: pointer;
+}
+
+.collapse-btn:active {
+    outline: 3px solid rgb(0, 238, 255);
+}
+
+.collapse-text {
+    padding: 1.5rem;
+    border: 2px solid #d1d1d1;
+    background-color: white;
+}
+
+.active {
+    max-height: 1000px;;
+}
+
+.collapse-text p {
+    margin: 0;
+    font-size: 1.5rem;
+}

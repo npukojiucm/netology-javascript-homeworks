@@ -1,0 +1,50 @@
+html {
+    font-size: 1rem;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.popover {
+    position: relative;
+    height: 50px;
+    margin: 100px;
+
+    border: none;
+    border-radius: 15px;
+    color: white;
+    background-color: #c73535;
+
+}
+
+.popover-message {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: calc(50% - 125px);
+    width: 250px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.message-title {
+    padding: 10px;
+    color: black;
+    background-color: #f7f0f0;
+    border-bottom: 1px solid #dbc8c8;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    text-align: left;
+}
+
+.message-text {
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+
+.active {
+    display: block;
+}
