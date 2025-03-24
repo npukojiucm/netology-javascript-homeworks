@@ -43,11 +43,11 @@
 
 |  №  | Тема                                                     |
 | :-: | -------------------------------------------------------- |
-| 2.1 | [Рабочее окружение](/21_working-environment/)            |
-| 2.2 | [DOM](/22_DOM/)                                          |
-| 2.3 | [Обработка событий](/23_event-handling/)                 |
-| 2.4 | [Организация тестирования](/24_organization-of-testing/) |
-| 2.5 | [Работа с HTML-формами](/25_working-html-form/)          |
-| 2.6 | [Работа с HTTP](/26_working-with-http/)                  |
-| 2.7 | [EventSource, Websockets](/27_event-source-websocket/)   |
-| 2.8 | [Анимации и CSS](/28_animation/)                         |
+| 3.1 | [Рабочее окружение](/21_working-environment/)            |
+| 3.2 | [DOM](/22_DOM/)                                          |
+| 3.3 | [Обработка событий](/23_event-handling/)                 |
+| 3.4 | [Организация тестирования](/24_organization-of-testing/) |
+| 3.5 | [Работа с HTML-формами](/25_working-html-form/)          |
+| 3.6 | [Работа с HTTP](/26_working-with-http/)                  |
+| 3.7 | [EventSource, Websockets](/27_event-source-websocket/)   |
+| 3.8 | [Анимации и CSS](/28_animation/)                         |
